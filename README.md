@@ -29,10 +29,10 @@ Computed:
 
 **Data Cleaning**
 
-* Removed missing values in key columns
-* Filled missing categories with "unknown"
-* Dropped unnecessary columns
-* Encoded store IDs
+* Removed rows with missing values in critical numerical columns  
+* Replaced missing values in store_primary_category with a new category "unknown"  
+* Dropped irrelevant columns  
+* Encoded store IDs for modeling  
 
 **Exploratory Data Analysis**
 
